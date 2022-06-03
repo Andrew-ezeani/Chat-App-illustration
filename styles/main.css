@@ -200,7 +200,7 @@ body {
   background-color: #fff;
 }
 
-.profile__more__more::before {
+.profile__more span::before {
   content: "";
   display: block;
   width: 2px;
@@ -210,7 +210,7 @@ body {
   margin-top: 4px;
 }
 
-.profile__more__more::after {
+.profile__more span::after {
   content: "";
   display: block;
   width: 2px;

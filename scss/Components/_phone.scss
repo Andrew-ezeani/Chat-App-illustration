@@ -73,24 +73,14 @@
     &__more {
         margin-top: 13px;
         @include small-circle-style;
-        // background-color: black;
-        // border: 2px solid red;
 
-        &__more {
-            // width: 10px;
-            // height: 10px;
-            // border-radius: 50%;
-            // background-color: #000;
-            // @include small-circle-style;
-            // background-color: red;
+        span {
 
             &::before {
                 content: "";
                 display: block;
                 @include small-circle-style;
                 margin-top: 4px;
-                // background-color: blue;
-            
             }
 
             &::after {
@@ -98,26 +88,8 @@
                 display: block;
                 @include small-circle-style;
                 margin-top: 2px;
-                // background-color: orange;
             }
         }
-        // @include small-circle-style;
-
-        // &::before {
-        //     content: "";
-        //     display: block;
-        //     @include small-circle-style;
-        //     margin: 5px 0;
-        
-        // }
-
-        // &::after {
-        //     content: "";
-        //     display: block;
-        //     @include small-circle-style;
-            
-        // }
-        
     }
 
     
