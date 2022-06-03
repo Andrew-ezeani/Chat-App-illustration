@@ -67,7 +67,7 @@ body {
 
 @media only screen and (max-width: 810px) {
   .card__text-box {
-    top: 54%;
+    top: 34%;
     left: 43%;
   }
 }
@@ -206,7 +206,7 @@ body {
 @media only screen and (max-width: 810px) {
   .phone-mockup {
     height: 42vh;
-    top: 40%;
+    top: 20%;
     left: 15%;
   }
 }
@@ -480,6 +480,7 @@ form button::after {
 @media only screen and (max-width: 810px) {
   .card {
     overflow: visible;
+    height: 90vh;
   }
 }
 
@@ -505,7 +506,7 @@ form button::after {
 
 @media only screen and (max-width: 810px) {
   .card::before {
-    height: 90vh;
+    height: 70vh;
     width: 30vw;
   }
 }
@@ -533,7 +534,7 @@ form button::after {
 
 @media only screen and (max-width: 810px) {
   .card::after {
-    height: 80vh;
+    height: 70vh;
     width: 30%;
   }
 }
