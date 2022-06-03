@@ -71,13 +71,12 @@ body {
         top: 32%;
         left: 38%;
         margin-left: 5rem;
-        // width: 40vw;
+        animation: move-in-right 3s ease-out;
 
         @include responsive(phone) {
             top: 170%;
             left: -20%;
             text-align: center;
-            // width: 100%;
             padding: 2rem;
         }
 
