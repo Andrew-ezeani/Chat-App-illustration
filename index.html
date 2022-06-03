@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>Chat app Illustration</title>
+</head>
+<body>
+    <main class="card">
+        <div class="phone-mockup">
+            <div class="profile">
+                <div class="profile__arrow"></div>
+                <img src="images/avatar.jpg" alt="" class="profile__avatar">
+                <div class="profile__text-box">
+                    <p class="profile__text-box--main">
+                        Samuel Green <span class="profile__text-box--sub">Available to walk</span>
+                    </p>
+                </div>
+                <div class="profile__more"><span class="profile__more__more"></span></div>
+            </div>
+
+            <div class="chatbox">    
+                    <p class="dog-walker__text dog-walker__text--1">That sounds great. I'd be happy to discuss more.</p>
+                    <p class="dog-walker__text dog-walker__text--2">Could you send over some pictures of your dog, please?</p>
+                <div class="client">
+                    <div class="client__image-text-box">
+                        <img src="images/dog-image-1.jpg" alt="" class="client__image-text">
+                        <img src="images/dog-image-2.jpg" alt="" class="client__image-text">
+                        <img src="images/dog-image-3.jpg" alt="" class="client__image-text">
+                    </div>
+                    
+                    <div class="client__chat-box">
+                        <p class="client__text client__text--1">Here are a few pictures. She's a happy girl!</p>
+                        <p class="client__text client__text--2">Can you make it?</p>
+                    </div>             
+                </div>
+                <p class="dog-walker__text dog-walker__text--3">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+                
+                <div class="pricing">
+                    <div class="pricing__rate">
+                        <input type="radio" name="price-options" id="time" class="checkbox">
+                        <label for="time">30 minute walk <span class="pricing__cost">$29</span></label>
+                    </div>
+                    <div class="pricing__rate">
+                        <input type="radio" name="price-options" id="time" class="checkbox">
+                        <label for="time">1 hour walk <span class="pricing__cost pricing__cost--2">$49</span></label>
+                    </div>
+                </div>
+                <form class="send-message">
+                    <label for="send-a-message"></label>
+                    <input type="text" placeholder="Type a message.." id="send-a-message" aria-label="send-a-message">
+                    <button><span></span></button>
+                </form>
+                
+            </div>
+        </div>
+        <div class="card__text-box">
+            <h1 class="card__text-box__heading">
+                Simple booking
+            </h1>
+            <p class="card__text-box__sub">
+                Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
