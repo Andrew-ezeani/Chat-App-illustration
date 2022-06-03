@@ -6,7 +6,6 @@
 
     @include responsive(ipad) {
         overflow: visible;
-        border: 2px solid red;
     }
 
     @include responsive(phone) {

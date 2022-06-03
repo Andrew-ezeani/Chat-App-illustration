@@ -20,11 +20,12 @@
 }
 
 @mixin responsive($break-point) {
-        @if $break-point == phone {
-            @media only screen and (max-width: 425px) {@content};
-        }
-
-        @if $break-point == ipad {
-            @media only screen and (max-width: 810px) {@content};
-        }
+    @if $break-point == phone {
+        @media only screen and (max-width: 425px) {@content};
     }
+
+    @if $break-point == ipad {
+        @media only screen and (max-width: 810px) {@content};
+    }
+}
+
