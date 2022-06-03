@@ -1,6 +1,6 @@
 @keyframes move-in-left {
     0% {
-        transform: translateX(-10rem);
+        transform: translateX(-15rem);
     }
 
     80% {
@@ -15,7 +15,7 @@
 @keyframes move-in-right {
     0% {
         opacity: 0;
-        transform: translateX(10rem);
+        transform: translateX(15rem);
     }
 
     80% {
