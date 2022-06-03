@@ -53,6 +53,7 @@
         @include responsive(ipad) {
             height: 70vh;
             width: 30%;
+            bottom: -5%;
         }
 
         @include responsive(phone) {

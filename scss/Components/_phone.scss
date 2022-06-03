@@ -13,7 +13,7 @@
     animation: move-in-left 3s ease-out;
 
     @include responsive(ipad) {
-        height: 42vh;
+        height: 44vh;
         top: 20%;
         left: 15%;
     }
