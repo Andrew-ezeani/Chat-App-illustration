@@ -5,6 +5,7 @@ body {
     background-color: $Light-Grayish-Violet;
 }
 
+
 .profile {
     &__text-box {
         width: 100%;
@@ -56,8 +57,8 @@ body {
 
         &:nth-child(2) {
             margin-top: $margin-top-small;
-            width: 75%;
-            margin-left: 24px;
+            width: 80%;
+            margin-left: 20px;
         }
 
     }
@@ -73,11 +74,17 @@ body {
         margin-left: 5rem;
         animation: move-in-right 3s ease-out;
 
+        
+
+        @include responsive(ipad) {
+            top: 54%;
+            left: 43%;
+        }
+
         @include responsive(phone) {
-            top: 170%;
+            top: 70%;
             left: -20%;
             text-align: center;
-            padding: 2rem;
         }
 
         &__heading {
@@ -87,6 +94,7 @@ body {
 
             @include responsive(phone) {
                 font-size: 2.4rem;
+                margin-bottom: .5rem;
             }
         }
 
@@ -95,9 +103,18 @@ body {
             font-size: 1.2rem;
             width: 40vw;
 
+            
+
+            @include responsive(ipad) {
+                width: 95%;
+                font-size: 1rem;
+            }
+
             @include responsive(phone) {
                 font-size: 1rem;
-                width: 100%;
+                width: 80%;
+                padding: 1rem;
+                margin: 0 auto;
             }
         }
     }

@@ -12,8 +12,15 @@
     z-index: 1;
     animation: move-in-left 3s ease-out;
 
+    @include responsive(ipad) {
+        height: 42vh;
+        top: 40%;
+        left: 15%;
+    }
+    
     @include responsive(phone) {
-        height: 150vh;
+        height: 41vh;
+        left: 20%;
     }
 
     &::before {
@@ -180,11 +187,10 @@
 }
 
 form {
-    margin-top: 10px;
     display: grid;
     place-items: center;
     position: relative;
-    margin-top: 10px;
+    margin-top: 12px;
 
     input[type="text"] {
         width: 100%;

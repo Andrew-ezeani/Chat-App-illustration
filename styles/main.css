@@ -32,12 +32,12 @@ body {
 }
 
 .dog-walker__text--1, .dog-walker__text--2 {
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
 .dog-walker__text--3 {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 .client__text {
@@ -50,9 +50,9 @@ body {
 }
 
 .client__text:nth-child(2) {
-  margin-top: 5px;
-  width: 75%;
-  margin-left: 24px;
+  margin-top: 6px;
+  width: 80%;
+  margin-left: 20px;
 }
 
 .card__text-box {
@@ -65,12 +65,18 @@ body {
           animation: move-in-right 3s ease-out;
 }
 
+@media only screen and (max-width: 810px) {
+  .card__text-box {
+    top: 54%;
+    left: 43%;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .card__text-box {
-    top: 170%;
+    top: 70%;
     left: -20%;
     text-align: center;
-    padding: 2rem;
   }
 }
 
@@ -83,6 +89,7 @@ body {
 @media only screen and (max-width: 425px) {
   .card__text-box__heading {
     font-size: 2.4rem;
+    margin-bottom: .5rem;
   }
 }
 
@@ -92,10 +99,19 @@ body {
   width: 40vw;
 }
 
+@media only screen and (max-width: 810px) {
+  .card__text-box__sub {
+    width: 95%;
+    font-size: 1rem;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .card__text-box__sub {
     font-size: 1rem;
-    width: 100%;
+    width: 80%;
+    padding: 1rem;
+    margin: 0 auto;
   }
 }
 
@@ -187,9 +203,18 @@ body {
           animation: move-in-left 3s ease-out;
 }
 
+@media only screen and (max-width: 810px) {
+  .phone-mockup {
+    height: 42vh;
+    top: 40%;
+    left: 15%;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .phone-mockup {
-    height: 150vh;
+    height: 41vh;
+    left: 20%;
   }
 }
 
@@ -305,7 +330,7 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin-top: 5px;
+  margin-top: 6px;
 }
 
 .client__image-text {
@@ -316,7 +341,7 @@ body {
 }
 
 .client__chat-box {
-  margin-top: 5px;
+  margin-top: 6px;
   width: 50%;
 }
 
@@ -340,7 +365,7 @@ body {
 }
 
 .pricing__rate:not(:last-child) {
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
 .pricing__cost {
@@ -383,12 +408,11 @@ body {
 }
 
 form {
-  margin-top: 10px;
   display: -ms-grid;
   display: grid;
   place-items: center;
   position: relative;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 form input[type="text"] {
@@ -452,10 +476,17 @@ form button::after {
   position: relative;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 810px) {
   .card {
     overflow: visible;
-    overflow-x: hidden;
+    border: 2px solid red;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .card {
+    height: 80vh;
+    overflow: hidden;
   }
 }
 
@@ -472,10 +503,18 @@ form button::after {
   background-image: linear-gradient(to top right, #8838ff, #e942ff);
 }
 
+@media only screen and (max-width: 810px) {
+  .card::before {
+    height: 90vh;
+    width: 30vw;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   .card::before {
-    height: 140vh;
-    width: 50vw;
+    left: -30%;
+    height: 45vh;
+    width: 75vw;
   }
 }
 
@@ -488,15 +527,22 @@ form button::after {
   right: 0;
   bottom: 0;
   z-index: 0;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(136, 56, 255, 0.02)), to(rgba(233, 66, 255, 0.02)));
-  background-image: linear-gradient(to top right, rgba(136, 56, 255, 0.02), rgba(233, 66, 255, 0.02));
+  background-image: -webkit-gradient(linear, left bottom, right top, from(rgba(136, 56, 255, 0.1)), to(rgba(233, 66, 255, 0.1)));
+  background-image: linear-gradient(to top right, rgba(136, 56, 255, 0.1), rgba(233, 66, 255, 0.1));
+}
+
+@media only screen and (max-width: 810px) {
+  .card::after {
+    height: 80vh;
+    width: 30%;
+  }
 }
 
 @media only screen and (max-width: 425px) {
   .card::after {
-    top: 120%;
-    height: 130vh;
-    width: 65%;
+    bottom: 0;
+    height: 43vh;
+    width: 75%;
     right: -30%;
   }
 }

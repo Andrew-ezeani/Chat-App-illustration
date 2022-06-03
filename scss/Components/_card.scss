@@ -4,9 +4,14 @@
     overflow: hidden;
     position: relative;
 
-    @include responsive(phone) {
+    @include responsive(ipad) {
         overflow: visible;
-        overflow-x: hidden;
+        border: 2px solid red;
+    }
+
+    @include responsive(phone) {
+        height: 80vh;
+        overflow: hidden;
     }
 
     &::before {
@@ -20,9 +25,15 @@
         left: 0;
         background-image: linear-gradient(to top right, $Light-Violet, $Light-Magenta);
 
+        @include responsive(ipad) {
+            height: 90vh;
+            width: 30vw;
+        }
+
         @include responsive(phone) {
-            height: 140vh;
-            width: 50vw;
+            left: -30%;
+            height: 45vh;
+            width: 75vw;
         }
     }
 
@@ -37,10 +48,17 @@
         z-index: 0;
         background-image: linear-gradient(to top right, $Light-Violet-dark, $Light-Magenta-dark);
 
+        
+
+        @include responsive(ipad) {
+            height: 80vh;
+            width: 30%;
+        }
+
         @include responsive(phone) {
-            top: 120%;
-            height: 130vh;
-            width: 65%;
+            bottom: 0;
+            height: 43vh;
+            width: 75%;
             right: -30%;
         }
     }
