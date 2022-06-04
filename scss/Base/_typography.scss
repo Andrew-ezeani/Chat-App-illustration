@@ -96,7 +96,7 @@ body {
         }
 
         @include responsive(mobile-height-2) {
-            top: 125%;
+            top: 70%;
         }
 
         
@@ -116,6 +116,7 @@ body {
 
             @include responsive(mobile-height-2) {
                 font-size: 2.1rem;
+                margin-bottom: .2rem;
             }
         }
 

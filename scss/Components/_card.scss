@@ -24,9 +24,8 @@
     }
 
     @include responsive(mobile-height-2) {
-        height: 100vh;
-        overflow-x: hidden;
-        overflow-y: visible;
+        height: 150vh;
+        overflow: hidden;
     }
 
     &::before {
@@ -93,7 +92,7 @@
 
         @include responsive(mobile-height-2) {
             height: 70vh;
-            top: 100%;
+            top: 55%;
         }
     }
 

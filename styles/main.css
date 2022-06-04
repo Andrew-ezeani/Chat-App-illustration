@@ -96,7 +96,7 @@ body {
 
 @media only screen and (max-height: 512px) {
   .card__text-box {
-    top: 125%;
+    top: 70%;
   }
 }
 
@@ -121,6 +121,7 @@ body {
 @media only screen and (max-height: 512px) {
   .card__text-box__heading {
     font-size: 2.1rem;
+    margin-bottom: .2rem;
   }
 }
 
@@ -265,7 +266,7 @@ body {
 
 @media only screen and (max-height: 512px) {
   .phone-mockup {
-    height: 80vh;
+    height: 78vh;
     left: 15%;
   }
 }
@@ -557,9 +558,8 @@ form button::after {
 
 @media only screen and (max-height: 512px) {
   .card {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: visible;
+    height: 150vh;
+    overflow: hidden;
   }
 }
 
@@ -643,7 +643,7 @@ form button::after {
 @media only screen and (max-height: 512px) {
   .card::after {
     height: 70vh;
-    top: 100%;
+    top: 55%;
   }
 }
 /*# sourceMappingURL=main.css.map */
