@@ -75,7 +75,7 @@ body {
         animation: move-in-right 3s ease-out;
 
         @include responsive(mobile-landscape) {
-            top: 60%;
+            top: 29%;
             left: 43%;
         }
 

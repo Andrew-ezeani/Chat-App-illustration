@@ -13,7 +13,7 @@
     animation: move-in-left 3s ease-out;
 
     @include responsive(mobile-landscape) {
-        top: 50%;
+        top: 20%;
         height: 28vh;
     }
 
