@@ -551,7 +551,6 @@ form button::after {
 @media only screen and (height: 892px) {
   .card {
     height: 100vh;
-    border: 2px solid red;
     overflow: hidden;
   }
 }

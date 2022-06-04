@@ -12,8 +12,6 @@ This is a solution to the [Chat app CSS illustration challenge on Frontend Mento
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -36,11 +34,11 @@ Users should be able to:
 
 ### What I learned
 
-My understanding of Css positioning attribute increased through this project. I also learnt basic css Animations using keyframes.
+My understanding of CSS positioning property increased through this project. I also learnt basic css Animations using keyframes and improved my knowledge of CSS media queries.
 
 ### Continued development
 
-I will continue learning about CSS animations in order to be able to create complex and nice CSS on;ly animations
+I will continue learning about CSS media queries and CSS animations in order to be able to create complex and nice CSS only animations
 
 ## Author
 
