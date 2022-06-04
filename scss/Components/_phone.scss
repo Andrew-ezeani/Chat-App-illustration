@@ -18,10 +18,18 @@
         left: 15%;
     }
     
-    @include responsive(phone) {
+    @include responsive(mobile) {
         height: 41vh;
         top: 10%;
         left: 20%;
+    }
+
+    @include responsive(mobile-height) {
+        height: 49vh;
+    }
+
+    @include responsive(mobile-height-2) {
+        height: 85vh;
     }
 
     &::before {

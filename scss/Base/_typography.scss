@@ -81,10 +81,19 @@ body {
             left: 43%;
         }
 
-        @include responsive(phone) {
+        @include responsive(mobile) {
             top: 70%;
             left: -20%;
             text-align: center;
+        }
+
+        @include responsive(mobile-height) {
+            top: 70%;
+            left: -18%;
+        }
+
+        @include responsive(mobile-height-2) {
+            top: 125%;
         }
 
         &__heading {
@@ -96,8 +105,12 @@ body {
                 font-size: 2.2rem;
             }
             
-            @include responsive(phone) {
+            @include responsive(mobile) {
                 font-size: 2.4rem;
+            }
+
+            @include responsive(mobile-height-2) {
+                font-size: 2.1rem;
             }
         }
 
@@ -113,7 +126,7 @@ body {
                 font-size: 1rem;
             }
 
-            @include responsive(phone) {
+            @include responsive(mobile) {
                 font-size: 1rem;
                 width: 100%;
                 padding: 1rem;

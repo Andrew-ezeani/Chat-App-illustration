@@ -72,11 +72,24 @@ body {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .card__text-box {
     top: 70%;
     left: -20%;
     text-align: center;
+  }
+}
+
+@media only screen and (height: 892px) {
+  .card__text-box {
+    top: 70%;
+    left: -18%;
+  }
+}
+
+@media only screen and (max-height: 512px) {
+  .card__text-box {
+    top: 125%;
   }
 }
 
@@ -92,9 +105,15 @@ body {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .card__text-box__heading {
     font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-height: 512px) {
+  .card__text-box__heading {
+    font-size: 2.1rem;
   }
 }
 
@@ -111,7 +130,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .card__text-box__sub {
     font-size: 1rem;
     width: 100%;
@@ -216,11 +235,23 @@ body {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .phone-mockup {
     height: 41vh;
     top: 10%;
     left: 20%;
+  }
+}
+
+@media only screen and (height: 892px) {
+  .phone-mockup {
+    height: 49vh;
+  }
+}
+
+@media only screen and (max-height: 512px) {
+  .phone-mockup {
+    height: 85vh;
   }
 }
 
@@ -489,10 +520,25 @@ form button::after {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .card {
     height: 80vh;
     overflow: visible;
+  }
+}
+
+@media only screen and (height: 892px) {
+  .card {
+    height: 100vh;
+    border: 2px solid red;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-height: 512px) {
+  .card {
+    overflow-x: hidden;
+    overflow-y: visible;
   }
 }
 
@@ -516,11 +562,17 @@ form button::after {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .card::before {
     left: -30%;
     height: 45vh;
     width: 75vw;
+  }
+}
+
+@media only screen and (max-height: 512px) {
+  .card::before {
+    height: 80vh;
   }
 }
 
@@ -545,12 +597,19 @@ form button::after {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   .card::after {
     bottom: 0;
     height: 43vh;
     width: 75%;
     right: -30%;
+  }
+}
+
+@media only screen and (max-height: 512px) {
+  .card::after {
+    height: 70vh;
+    top: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */

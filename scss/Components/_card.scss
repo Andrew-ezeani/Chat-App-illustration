@@ -9,9 +9,20 @@
         height: 90vh;
     }
 
-    @include responsive(phone) {
+    @include responsive(mobile) {
         height: 80vh;
         overflow: visible;
+    }
+
+    @include responsive(mobile-height) {
+        height: 100vh;
+        border: 2px solid red;
+        overflow: hidden;
+    }
+
+    @include responsive(mobile-height-2) {
+        overflow-x: hidden;
+        overflow-y: visible;
     }
 
     &::before {
@@ -30,10 +41,14 @@
             width: 30vw;
         }
 
-        @include responsive(phone) {
+        @include responsive(mobile) {
             left: -30%;
             height: 45vh;
             width: 75vw;
+        }
+
+        @include responsive(mobile-height-2) {
+            height: 80vh;
         }
     }
 
@@ -56,11 +71,16 @@
             bottom: -5%;
         }
 
-        @include responsive(phone) {
+        @include responsive(mobile) {
             bottom: 0;
             height: 43vh;
             width: 75%;
             right: -30%;
+        }
+
+        @include responsive(mobile-height-2) {
+            height: 70vh;
+            top: 100%;
         }
     }
 
