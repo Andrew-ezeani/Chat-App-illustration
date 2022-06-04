@@ -251,7 +251,7 @@ body {
 
 @media only screen and (max-height: 512px) {
   .phone-mockup {
-    height: 83vh;
+    height: 80vh;
     left: 15%;
   }
 }
