@@ -28,7 +28,7 @@
 
     @include responsive(mobile-landscape) {
         border: 2px solid red;
-        // height: 80vh;
+        height: 100vh;
         // overflow: visible;
     }
 
@@ -43,6 +43,10 @@
         left: 0;
         background-image: linear-gradient(to top right, $Light-Violet, $Light-Magenta);
 
+        @include responsive(mobile-landscape) {
+            height: 90vh;
+        }
+        
         @include responsive(ipad) {
             height: 70vh;
             width: 30vw;
@@ -57,6 +61,8 @@
         @include responsive(mobile-height-2) {
             height: 80vh;
         }
+
+        
     }
 
     &::after {
@@ -69,6 +75,10 @@
         bottom: 0;
         z-index: 0;
         background-image: linear-gradient(to top right, $Light-Violet-dark, $Light-Magenta-dark);
+
+        @include responsive(mobile-landscape) {
+            height: 45vh;
+        }
 
         @include responsive(ipad) {
             height: 70vh;

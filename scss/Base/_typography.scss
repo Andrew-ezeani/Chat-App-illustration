@@ -74,7 +74,10 @@ body {
         margin-left: 5rem;
         animation: move-in-right 3s ease-out;
 
-        
+        @include responsive(mobile-landscape) {
+            top: 60%;
+            left: 43%;
+        }
 
         @include responsive(ipad) {
             top: 36%;
@@ -95,6 +98,8 @@ body {
         @include responsive(mobile-height-2) {
             top: 125%;
         }
+
+        
 
         &__heading {
             font-size: 3rem;

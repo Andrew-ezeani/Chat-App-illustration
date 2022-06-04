@@ -12,6 +12,11 @@
     z-index: 1;
     animation: move-in-left 3s ease-out;
 
+    @include responsive(mobile-landscape) {
+        top: 50%;
+        height: 28vh;
+    }
+
     @include responsive(ipad) {
         height: 44vh;
         top: 20%;
@@ -32,6 +37,8 @@
         height: 80vh;
         left: 15%;
     }
+
+    
 
     &::before {
         content: "";
