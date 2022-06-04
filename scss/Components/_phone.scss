@@ -29,7 +29,8 @@
     }
 
     @include responsive(mobile-height-2) {
-        height: 85vh;
+        height: 83vh;
+        left: 15%;
     }
 
     &::before {

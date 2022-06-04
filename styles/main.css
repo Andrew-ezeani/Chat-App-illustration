@@ -251,7 +251,8 @@ body {
 
 @media only screen and (max-height: 512px) {
   .phone-mockup {
-    height: 85vh;
+    height: 83vh;
+    left: 15%;
   }
 }
 
@@ -537,8 +538,15 @@ form button::after {
 
 @media only screen and (max-height: 512px) {
   .card {
+    height: 100vh;
     overflow-x: hidden;
     overflow-y: visible;
+  }
+}
+
+@media only screen and (max-width: 375px) and (landscape) {
+  .card {
+    border: 2px solid red;
   }
 }
 

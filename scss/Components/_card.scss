@@ -21,8 +21,15 @@
     }
 
     @include responsive(mobile-height-2) {
+        height: 100vh;
         overflow-x: hidden;
         overflow-y: visible;
+    }
+
+    @include responsive(mobile-landscape) {
+        border: 2px solid red;
+        // height: 80vh;
+        // overflow: visible;
     }
 
     &::before {
@@ -62,8 +69,6 @@
         bottom: 0;
         z-index: 0;
         background-image: linear-gradient(to top right, $Light-Violet-dark, $Light-Magenta-dark);
-
-        
 
         @include responsive(ipad) {
             height: 70vh;
